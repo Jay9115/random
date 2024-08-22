@@ -39,8 +39,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const mainContent = document.getElementById('main_content');
     
         const menuItems1 = {
-            profile: "profile/profile.html",
-            home: "home_html",
+            profile: "Profile/profile.html",
+            home: "index.html",
             explore: "explore_page/explore.html",
             people: "people_page/people.html",
             class: "class_page/class.html",
