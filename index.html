@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Menu and Status Bar</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css"/>
+<style>
+    .Menu_svg
+    {
+        font-size: 30px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar collapsed">
+            <div class="menu-toggle" style="margin: 5px;" >
+                <i style="font-size:30px;" class="iconoir-menu"></i>
+            </div>
+            <nav class="menu">
+                <ul>
+
+                    <li class="menu-item active" id="profile"><i  class="iconoir-profile-circle Menu_svg"></i><span class="menu-text">Profile</span></li>
+                    <li class="menu-item active" id="home"><i class="iconoir-home-alt Menu_svg"></i><span class="menu-text">Home</span></li>
+                    <li class="menu-item" id="explore"><i  class="iconoir-dot-arrow-up Menu_svg"></i><span class="menu-text">Explore</span></li>
+                    <li class="menu-item" id="people"><i  class="iconoir-group Menu_svg"></i><span class="menu-text">People</span></li>
+                    <li class="menu-item" id="class"><i  class="iconoir-bookmark-book Menu_svg"></i><span class="menu-text">Class</span></li>
+                    <li class="menu-item" id="blog"><i  class="iconoir-edit-pencil Menu_svg"></i><span class="menu-text">Blog</span></li>
+                    <div id="menu-down">
+                    <li class="menu-item" id="settings"><i  class="iconoir-settings Menu_svg"></i><span class="menu-text">Settings</span></li>
+                    <li class="menu-item" id="about"><span class="menu-text">About us</li>
+                    </div>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header class="status-bar">
+                <span class="Logo">
+                    <button id="theme-toggle"><img src="profilee.png" alt=""></button>
+                    <img src="logo.png" height="50" width="50" alt="logo">
+                    FusionAll
+                </span>
+                <span class="profile">
+                    <i  class="iconoir-profile-circle Menu_svg"></i>
+                </span>
+                <span id="login">
+                    <button><a href="Login_Page/login.html">login</a></button>
+                </span>
+                
+            </header>
+            <div class="content">
+                <!-- Main content goes here -->
+                 adasadda
+                 <div id="main_content">
+                    
+
+                 </div>
+            </div>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
